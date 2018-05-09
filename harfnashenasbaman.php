@@ -1,7 +1,14 @@
 <?php
 ob_start();
-
-define('API_KEY','توکن');
+/*
+─═ঊঈঊঈ═─╮
+Developer : mohammadhosseinheidari
+Dev ID : @NOBLEST
+Channel ID : @harfnashenasbeman
+Github Addres : github.com/NobLestDev/harfnashenasbeman
+─═ঊঈঊঈ═─╯
+*/
+define('API_KEY','575684099:AAH6tKm1WO3ymyMy3MpSSzIkVrRiTJYTlRQ');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method,$datas=[]){
