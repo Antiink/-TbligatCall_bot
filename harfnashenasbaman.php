@@ -8,11 +8,11 @@ Channel ID : @harfnashenasbeman
 Github Addres : github.com/NobLestDev/harfnashenasbeman
 ─═ঊঈঊঈ═─╯
 */
-define('API_KEY','575684099:AAH6tKm1WO3ymyMy3MpSSzIkVrRiTJYTlRQ');
+define('575684099','AAH6tKm1WO3ymyMy3MpSSzIkVrRiTJYTlRQ');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method,$datas=[]){
-    $url = "https://api.telegram.org/bot".API_KEY."/".$method;
+    $url = "https://api.telegram.org/bot".575684099."/".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
